@@ -2,11 +2,11 @@
   "expo": {
     "name": "sym2talk",
     "slug": "sym2talk",
-    "version": "1.0.0",
-    "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "version": "1.0.1",
+    "orientation": "landscape",
+    "icon": "./assets/wechat.png",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/wechat.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -17,16 +17,21 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "sym2talk"
     },
     "android": {
+      "versionCode": 2,
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/wechat.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.satish.prg.sym2talk",
+      "permissions": ["MANAGE_DOCUMENTS", "READ_EXTERNAL_STORAGE"]
     },
     "web": {
-      "favicon": "./assets/favicon.png"
-    }
+      "favicon": "./assets/wechat.png"
+    },
+    "description": "Sym2Talk is a Communication App, also known as AAC App meant for the adults who have difficulty using speech to convey their thoughts and ideas using 8000 images.\n\nThis Communication Apps, also known as AAC App has been tested on both iOS and Android phones, tablets etc. "
   }
 }
