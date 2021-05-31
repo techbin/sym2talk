@@ -116,7 +116,8 @@ function sym2talk ()  {
 
 const styles = StyleSheet.create({
     maincontainer: {
-        flex: 10,
+        width:'100%',
+        height:'100%'
     },
     topbar: {
         backgroundColor: "#e9e9e9",
@@ -152,6 +153,7 @@ const styles = StyleSheet.create({
         backgroundColor: "#e9e9e9",
         flexDirection:'column',
         width: "100%",
+        height:'100%',
         top: 10
     },
     categorycontainer: {
